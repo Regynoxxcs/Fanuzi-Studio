@@ -1,0 +1,66 @@
+/* Basic reset to clean up default margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar container floating on top of the background */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: transparent; /* Invisible background to let the video show through */
+    z-index: 1000; /* Keeps navbar sitting safely on top of the video */
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #000000; /* A bright tech accent color (teal/cyan) */
+}
+
+/* Center Navigation Links */
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effects */
+.nav-links a:hover, .nav-links a.active {
+    color: #00adb5;
+}
+
+/* Premium CTA Button on the right */
+.cta-btn {
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #00adb5;
+    padding: 8px 20px;
+    border-radius: 50px; /* Smooth rounded button */
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #00adb5;
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 173, 181, 0.4);
+}
