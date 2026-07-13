@@ -5,18 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fanuzi Studio</title>
     <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="navbar">
-    <div class="logo">Fanuzi <span>Studio</span></div>
-    <nav class="nav-links">
-        <a href="index.html" class="active">Home</a>
-        <a href="Pages/PortFolio.html">Portfolio</a>
-        <a href="Pages/Contacts.html">Contact</a>
-    </nav>
-    <div class="nav-cta">
-        <a href="Pages/Contacts.html" class="cta-btn">Get in Touch</a>
-    </div>
-</header>
+
+    <header class="hero-section">
+        
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="bg-video">
+                <source src="./images/Video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <nav class="navbar">
+            <div class="logo">Fanuzi Studio</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#get-in-touch" class="btn-git">Get in Touch</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1>TRUST ME, IT'S NOT THAT HARD WITH ME</h1>
+        </div>
+
+    </header>
+
+    <main class="main-content">
+        <section class="container">
+            <h2>Welcome to Fanuzi Studio</h2>
+            <p>This section sits cleanly below your video background. <br>
+                As you scroll down, the video moves up and away naturally. You can add your portfolio grid, image galleries, text descriptions, or blog content right here inside this white container block.</p>
+            
+            <div style="height: 600px; margin-top: 2rem; background: #f4f4f5; border: 2px dashed #e4e4e7; display: flex; align-items: center; justify-content: center; color: #71717a; border-radius: 8px;">
+                [Your Portfolio Grid or Additional Sections Will Go Here]
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
