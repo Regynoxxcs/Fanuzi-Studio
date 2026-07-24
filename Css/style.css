@@ -343,6 +343,25 @@ body {
 html {
     scroll-behavior: smooth;
 }
+/* Style for sub-page headers */
+.site-header {
+    background-color: pink; /* Or match #c4c0c2 for seamless grey */
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Ensure navbar text is dark and visible */
+.logo, .nav-links a {
+    color: #111111; 
+}
 
 .intro-section {
   background-color: #c4c0c2; /* Adjust this hex code to match your exact shade of pink */
