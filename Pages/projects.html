@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects - Fanuzi Studio</title>
+    <link href="../images/magic-wand.png" rel="icon" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    
+
+    <!-- Header & Navbar matching Homepage Style -->
+    <header class="page-header">
+        <nav class="site-nav">
+            <div class="nav-logo">Fanuzi Studio</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./projects.html" class="active">Projects</a></li>
+                <li><a href="./freelance.html">freelance</a></li>
+                <li><a href="./contact.html">Get in Touch</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-hero">
+            <h1>PROJECTS & LIVE DEMOS</h1>
+            <p>Explore recent interactive builds, creative highlights, and professional workflows.</p>
+        </div>
+    </header>
+
+    <!-- Main Content / Autoplay Video Grid -->
+    <main class="projects-container">
+        
+        <!-- Two-Column Grid for Featured Projects -->
+        <div class="projects-grid">
+            
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <div class="video-container">
+                    <video autoplay loop muted playsinline>
+                        <source src="../images/cvat_compressed.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="project-info">
+                    <h3>Interactive Technical Walkthrough</h3>
+                    <p>A detailed demonstration showcasing software execution, development setups, and logical problem-solving structures.</p>
+                    <div class="tech-tags">
+                        <span>Development</span>
+                        <span>Logic</span>
+                        <span>Python/JS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/regynoxxcs" target="_blank" class="btn-action">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <div class="video-container">
+                    <video autoplay loop muted playsinline>
+                        <source src="../images/Avala_compressed.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="project-info">
+                    <h3>Creative Design & UI/UX Showcase</h3>
+                    <p>An aesthetic highlight reel featuring frontend layouts, digital graphics, brand asset creation, and responsive web interfaces.</p>
+                    <div class="tech-tags">
+                        <span>UI/UX</span>
+                        <span>Canva</span>
+                        <span>Tailwind CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="./portfolio.html" class="btn-action">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Full-Width Card for Comprehensive Highlights -->
+        <div class="project-card wide-card">
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="../images/GULP.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="project-info">
+                <h3>Comprehensive Professional Showreel</h3>
+                <p>A multi-segment overview highlighting full-stack builds, quality assurance auditing, and professional data annotation workflows.</p>
+                <div class="tech-tags">
+                    <span>Data Annotation</span>
+                    <span>QA Review</span>
+                    <span>Full-Stack</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/regynoxxcs" target="_blank" class="btn-action">GitHub Repository</a>
+                    <a href="./contact.html" class="btn-action primary">Let's Collaborate</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer Section -->
+    <section class="cta-section">
+        <h3>Ready to start your next digital project?</h3>
+        <p>Let's make the development process simple, straightforward, and stress-free for you.</p>
+        <a href="./contact.html" class="cta-btn">Get in Touch</a>
+    </section>
+
 </body>
 </html>
